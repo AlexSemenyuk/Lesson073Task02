@@ -1,0 +1,99 @@
+/* Common */
+:root {
+    /* text color */
+    --color-text-primary: rgba(0, 0, 0, 1);
+    --color-text-secondary: rgba(255, 255, 255, 1);
+
+    /* background */
+    --color-background-body: rgb(210, 210, 210, 1);
+
+    /* text */
+    --text-primary: "Arial", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-background-body);
+    height: 100vh;
+    color: var(--color-text-primary);
+}
+
+main.main {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    padding: 30px 0px 30px 0px;
+}
+
+.form {
+    margin: 10px;
+}
+
+h1.h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.reg {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: 20px;
+}
+
+label {
+    display: inline-block;
+}
+
+input {
+    display: inline-block;
+    background-color: var(--color-text-secondary);
+}
+
+#login, #password {
+    text-indent: 1em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.but-submit {
+    margin-top: 20px;
+}
+
+.label-input {
+    margin: 0px;
+    line-height: 59px
+}
+
+.header {
+    padding: 0px;
+
+}
+
+.but-home {
+    width: 15%;
+    margin: 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+button.button {
+    margin: 10px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.total-success {
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+}
+
+.total-try {
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}

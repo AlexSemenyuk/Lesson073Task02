@@ -1,0 +1,185 @@
+/* Common */
+:root {
+    /* text color */
+    --color-text-primary: rgba(0, 0, 0, 1);
+    --color-text-secondary: rgba(255, 255, 255, 1);
+
+    /* background */
+    --color-background-body: rgb(210, 210, 210, 1);
+
+    /* text */
+    --text-primary: "Arial", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-background-body);
+    height: 300vh;
+    color: var(--color-text-primary);
+}
+
+main.cont {
+    padding: 0;
+    margin: 0;
+}
+
+h1.h {
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+
+.product-item {
+    list-style: none;
+    border: 1px solid var(--color-text-primary);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.product-con {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+/*.prod-con {*/
+/*    display: grid;*/
+/*    grid-template-columns: 60% 40%;*/
+/*}*/
+
+
+/*.fiction {*/
+/*    height: 48px;*/
+/*}*/
+
+.fig {
+    height: 165px;
+    margin: 0;
+}
+
+form.amount {
+    /*margin: 0 20px 0 20px;*/
+    /*display: grid;*/
+    /*grid-template-columns: 60% 30%;*/
+
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--color-text-primary);
+}
+
+.product-image {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    /*margin: 0 40px 0 40px;*/
+}
+
+
+.product-price {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0 0 0 20px;
+}
+
+.product-quantity {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0 0 10px 20px;
+}
+
+input.product-input {
+    background-color: var(--color-text-secondary);
+    font-size: 14px;
+    padding: 5px 8px 5px 8px;
+    margin: 10px 20px 5px 20px;
+    text-indent: 1em;
+    height: 2.5em;
+    display: inline-block;
+    width: 100px;
+
+}
+
+.but-ok {
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+    height: 2.5em;
+    display: inline-block;
+    text-align: center;
+    margin: 0 30px 0 30px;
+}
+
+
+/*.form {*/
+/*    margin: 10px;*/
+/*}*/
+
+
+/*.reg {*/
+/*    display: grid;*/
+/*    grid-template-columns: 25% 75%;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*label {*/
+/*    display: inline-block;*/
+/*}*/
+
+/*input {*/
+/*    display: inline-block;*/
+/*    background-color: var(--color-text-secondary);*/
+/*}*/
+
+/*#login, #password {*/
+/*    text-indent: 1em;*/
+/*    margin: 0px;*/
+/*    padding: 0px;*/
+/*}*/
+
+/*.but-submit {*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.label-input {*/
+/*    margin: 0px;*/
+/*    line-height: 59px*/
+/*}*/
+
+/*.header {*/
+/*    padding: 0px;*/
+/*}*/
+
+/*.but-home {*/
+/*    width: 15%;*/
+/*    margin: 0px;*/
+/*    margin: 10px 0px 10px 0px;*/
+/*}*/
+
+/*button.button {*/
+/*    margin: 10px;*/
+/*    font-size: 14px;*/
+/*    padding: 5px;*/
+/*}*/
+
+/*.total-success {*/
+/*    font-size: 20px;*/
+/*    text-align: center;*/
+/*    color: blue;*/
+/*}*/
+
+/*.total-try {*/
+/*    font-size: 20px;*/
+/*    text-align: center;*/
+/*    color: red;*/
+/*}*/

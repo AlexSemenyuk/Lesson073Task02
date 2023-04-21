@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Reminder</title>
+    <link rel='stylesheet' href="resources/css/pico.min.css">
+    <link rel='stylesheet' href="resources/css/style-order.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+</head>
+<body>
+<main class='cont'>
+    <h1 class="h">Your order</h1>
+    <table>
+        <thead>
+            <tr>
+                <th class="head">Product's name</th>
+                <th class="head">Amount, kg</th>
+                <th class="head">Price, grn/kg</th>
+                <th class="head">Total cost, grn</th>
+            </tr>
+        </thead>
+        <tbody>
+            %s
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="foot" colspan="3">Total cost of always products:</td>
+                <td class="foot" >%s</td>
+            </tr>
+        </tfoot>
+    </table>
+    <form action="signup">
+        <button class="button-ok" name="confirm" class="button" type="submit">Confirm your order</button>
+    </form>
+</main>
+</body>
+</html>
