@@ -101,6 +101,8 @@ public class OrderServlet extends BaseServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // Можно добавить изменения в DB (уменьшение по кол-ву) и формирование отдельной таблицы order в DB
+        HttpSession session = req.getSession();
+        session.invalidate();
         resp.sendRedirect("signup");
     }
 
